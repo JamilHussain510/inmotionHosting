@@ -1,0 +1,77 @@
+/**Section Starts*/
+section{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid brown;
+    border-left: 2px solid brown;
+    border-right: 2px solid brown;
+     padding: 10px 10px; 
+}
+ section .main{
+    display: flex; 
+}
+section .main .logo{
+    border-right: 2px solid brown;
+    padding-right: 5px;
+    opacity: 0.5;
+}
+section .main .logo img{
+    width: 50px;
+    height: 50px;
+}
+section .main .cPanel{
+    margin-left: 5px;
+}
+section .cPanel img{
+    width: 50px;
+    height: 50px;
+}
+section .cPanel img:hover{
+    width:75px ;
+    height: 75px;
+    position: absolute;
+}
+section .search{
+    width: auto;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+section .search .search-me{
+    display: flex;
+    margin-right: 10px;
+}
+section .search a {
+    color: rgb(51, 51, 51);
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.8;
+}
+/* sections Ends */
+/* navbar Starts */
+nav{
+    max-width: 100%;
+    height: 25px;
+    margin-top: 15px;
+    background-color: rgb(185, 77, 77);   
+}
+ nav a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+nav a:hover{
+    background-color: white;
+    color: rgb(185, 77, 77);
+    text-decoration: underline;
+}
+hr{
+    opacity: 0.5;
+}
+/* navbar Ends */
+
+
+
